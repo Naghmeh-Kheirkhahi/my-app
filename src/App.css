@@ -36,3 +36,113 @@
     transform: rotate(360deg);
   }
 }
+
+
+.myBtn {
+  background-color: rgb(123, 211, 123);
+  color: rgb(23, 61, 23);
+  border: 1px solid rgb(44, 132, 44);
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.myList {
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: rgb(46, 46, 154);
+  margin: 2rem;
+  background-color: rgb(249, 208, 84);
+  width: 30%;
+}
+
+.myList ul {
+  list-style: square;
+}
+
+
+
+
+
+.myTable {
+  margin: 2rem;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: rgb(164, 97, 164);
+  border: 2px solid rgb(52, 0, 85);
+  text-align: center;
+  margin: 3rem 2rem;
+}
+
+.myTable  th {
+  color: rgb(71, 0, 116);
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid rgb(52, 0, 85);
+  padding: 0.5rem;
+
+}
+
+.myTable td {
+  color: rgb(99, 0, 160);
+  font-size: 1.5rem;
+  border: 1px solid rgb(52, 0, 85);
+  padding: 0.5rem;
+
+}
+
+
+
+
+.myForm {
+  margin: 2rem;
+  background-color: rgb(137, 238, 188);
+  padding: 2rem;
+  border: 2px solid rgb(43, 196, 119);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.formInfo {
+  padding-bottom: 1.5rem;
+}
+
+.formInfo label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.formInfo input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.myForm button {
+  border: 1px solid rgb(0, 145, 73);
+  background-color: rgb(0, 186, 93);
+  margin-left: 40%;
+}
+
+
+
+
+.mainClass {
+  margin: 5rem 0;
+  background-color: rgb(154, 255, 196);
+  padding: 5rem 0;
+}
+
+.registerForm {
+  background-color: rgb(217, 217, 217);
+  border: 2px solid rgb(195, 195, 195);
+  border-radius: 15px;
+}
+
+.formTitle {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
