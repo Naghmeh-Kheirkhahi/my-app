@@ -5,28 +5,34 @@ import List from './List';
 import Table from './Table';
 import Login from './Login';
 import Register from './Register';
+import Parent from './Parent';
 
 
 
 function App() {
   return (
+
     <div>
-
-      <Button className= "myBtn" 
-      text='Click Here'/>
-
-      <List className= "myList" 
-      text1= 'HTML' text2= 'CSS' text3= 'JS' text4= 'REACT' text5= 'NodeJS'/>
-
-      <Table className= "myTable"/>
-
-      <br/> <hr/> <br/> <br/>
-
-      <Login mainClass= "myForm" subClass= "formInfo"/>
-
-      <Register mainClass= "mainClass" registerForm="registerForm" formTitle="formTitle"/>
-
+      <Parent/>
     </div>
+
+
+    // <div>
+    //   <Button className= "myBtn" 
+    //   text='Click Here'/>
+
+    //   <List className= "myList" 
+    //   text1= 'HTML' text2= 'CSS' text3= 'JS' text4= 'REACT' text5= 'NodeJS'/>
+
+    //   <Table className= "myTable"/>
+
+    //   <br/> <hr/> <br/> <br/>
+
+    //   <Login mainClass= "myForm" subClass= "formInfo"/>
+
+    //   <Register mainClass= "mainClass" registerForm="registerForm" formTitle="formTitle"/>
+
+    // </div>
   );
 }
 
