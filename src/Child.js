@@ -30,7 +30,6 @@ function Child(props) {
     }
     return (
 
-
         <>
             <div style={styles.user}>
                 <h1 style={{fontSize: '2rem'}}>{props.fname}</h1>
@@ -45,7 +44,6 @@ function Child(props) {
                 <p>{props.carModel}</p>
                 <img style={styles.img} src={props.carImage} />
             </div>
-
 
         </>
     )
