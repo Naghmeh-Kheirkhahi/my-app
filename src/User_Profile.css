@@ -7,10 +7,10 @@
     overflow-x: hidden;
 }
 
-.card {
+.main_class {
     align-items: center;
     text-align: center;
-    padding: 5rem 0;
+    padding: 5rem 1rem;
     background-color: rgb(192, 255, 115);
     border: 2px solid rgb(143, 224, 97);
     border-radius: 15px;

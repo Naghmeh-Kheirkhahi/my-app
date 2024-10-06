@@ -7,20 +7,19 @@ function UserProfileChild(props) {
 
     return (
         <>
-
-            <div className="col-4 main_class mb-3">
-                <div className="card">
+            <div className="col-4 mb-3 mt-3">
+                <div className="main_class">
                     <img src={props.image} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <h1 className="card-title">{props.fname} {props.lname}</h1>
-                        <p className="card-text">Age: {props.age}</p>
-                        <p className="card-text">Birth Date: {props.birthDate}</p>
-                        <p className="card-text">Status: {props.status}</p>
-                        <p className="card-text">Job: {props.job}</p>
-                        <p className="card-text">Education: {props.education}</p>
-                        <p className="card-text">Phone Number: {props.phoneNumber}</p>
-                        <p className="card-text">Email Address: {props.emailAddress}</p>
-                        <p className="card-text">Address: {props.address}</p>
+                    <div>
+                        <h1>{props.fname} {props.lname}</h1>
+                        <p><b>Age: </b>{props.age}</p>
+                        <p><b>Birth Date: </b>{props.birthDate}</p>
+                        <p><b>Status: </b>{props.status}</p>
+                        <p><b>Job: </b>{props.job}</p>
+                        <p><b>Education: </b>{props.education}</p>
+                        <p><b>Phone Number: </b>{props.phoneNumber}</p>
+                        <p><b>Email Address: </b>{props.emailAddress}</p>
+                        <p><b>Address: </b>{props.address}</p>
                     </div>
                 </div>
             </div>
