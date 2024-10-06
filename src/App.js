@@ -6,6 +6,7 @@ import Table from './Table';
 import Login from './Login';
 import Register from './Register';
 import Parent from './Parent';
+import UserProfileParent from './User_Profile_Parent';
 
 
 
@@ -13,7 +14,15 @@ function App() {
   return (
 
     <div>
-      <Parent/>
+      {/* <div>
+        <Parent/>
+      </div>
+
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
+
+      <div >
+        <UserProfileParent/>
+      </div>
     </div>
 
 

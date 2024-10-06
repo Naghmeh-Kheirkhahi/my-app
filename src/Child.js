@@ -9,7 +9,8 @@ function Child(props) {
             color: 'red',
             backgroundColor: 'black',
             border: '1px solid green',
-            textAlign: 'center'
+            textAlign: 'center',
+            marginBottom: '2rem'
         },
 
 
@@ -17,7 +18,8 @@ function Child(props) {
             color: 'green',
             backgroundColor: 'orange',
             border: '2px solid black',
-            textAlign: 'center'
+            textAlign: 'center',
+            marginBottom: '2rem'
         },
 
 
