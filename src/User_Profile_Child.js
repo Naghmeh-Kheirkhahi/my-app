@@ -11,15 +11,12 @@ function UserProfileChild(props) {
                 <div className="main_class">
                     <img src={props.image} className="card-img-top" alt="..." />
                     <div>
-                        <h1>{props.fname} {props.lname}</h1>
-                        <p><b>Age: </b>{props.age}</p>
-                        <p><b>Birth Date: </b>{props.birthDate}</p>
-                        <p><b>Status: </b>{props.status}</p>
-                        <p><b>Job: </b>{props.job}</p>
-                        <p><b>Education: </b>{props.education}</p>
+                        <h1>{props.name}</h1>
+                        <p><b>Username: </b>{props.username}</p>
                         <p><b>Phone Number: </b>{props.phoneNumber}</p>
                         <p><b>Email Address: </b>{props.emailAddress}</p>
-                        <p><b>Address: </b>{props.address}</p>
+                        <p><b>Website: </b>{props.website}</p>
+                        <p><b>Address: </b>{props.addressStr} {props.addressSuite} {props.addressCity} {props.addressZipCode}</p>
                     </div>
                 </div>
             </div>
