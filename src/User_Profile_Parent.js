@@ -55,13 +55,9 @@ function UserProfileParent() {
                         //we make a child file and use props. Then, we make one child as a Tag from the child file in the parent file and call the properties of each object in the API array ONLY ONCE.
                     />
                 ))}
-
-
             </div>
         </div>
-
     )
-
 }
 
 
